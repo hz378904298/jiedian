@@ -11,7 +11,7 @@ log-level: silent
 external-controller: '0.0.0.0:9090'
 secret: ''
 proxies:
-  - {"name":"可用流量:5000GB 有效期:2999-01-01",type: http, server: a1.ap.fastqvpn.com, port: 29980, username: "402828468988936192", password: "9e880919-94a3-4e74-ba21-d31d0d82b33b", tls: true }
+  - {"name":"可用流量:427.98GB 有效期:2121-01-23",type: http, server: a1.ap.fastqvpn.com, port: 29980, username: "402828468988936192", password: "9e880919-94a3-4e74-ba21-d31d0d82b33b", tls: true }
   - {"name":"P加加 - 最新官网:pjj.one","type":"ssr","server":"sk01.pjj.life","port":12334,"cipher":"aes-128-cfb","password":"pjj.one","protocol":"auth_aes128_sha1","protocol-param":"41440308:b74a4aab-0142-4f1b-b013-0db9efedc9c3","obfs":"plain","obfs-param":"","udp":true}
   - {"name":"P加加 - TG客服群:https://t.me/pjjone","type":"ssr","server":"sk02.pjj.life","port":12334,"cipher":"aes-128-cfb","password":"pjj.one","protocol":"auth_aes128_sha1","protocol-param":"41440308:b74a4aab-0142-4f1b-b013-0db9efedc9c3","obfs":"plain","obfs-param":"","udp":true}
   - {"name":"韩国03","type":"ssr","server":"sk03.pjj.life","port":12334,"cipher":"aes-128-cfb","password":"pjj.one","protocol":"auth_aes128_sha1","protocol-param":"41440308:b74a4aab-0142-4f1b-b013-0db9efedc9c3","obfs":"plain","obfs-param":"","udp":true}
@@ -161,7 +161,7 @@ proxy-groups:
       - '台湾03'
       - '台湾04'
     url: 'http://www.gstatic.com/generate_204'
-    interval: '28800'
+    interval: '300'
 
 rules:
   - DOMAIN-SUFFIX,pjj.one,DIRECT
