@@ -5,14 +5,14 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 HK_45.52Mb, type: http, server: a1.ap.fastqvpn.com, port: 29980, username: "178257641941499904", password: "46f40a8a-481e-4f97-a0fe-b3cb9ad5cb7b", tls: true }
-  - {name: 🇭🇰 HK_45.12Mb, type: http, server: a2.ap.fastqvpn.com, port: 29980, username: "178257641941499904", password: "46f40a8a-481e-4f97-a0fe-b3cb9ad5cb7b", tls: true }
-  - {name: 🇭🇰 HK_42.79Mb, type: http, server: a3.ap.fastqvpn.com, port: 29980, username: "178257641941499904", password: "46f40a8a-481e-4f97-a0fe-b3cb9ad5cb7b", tls: true }  
-  - {name: 🇭🇰 HK_39.75Mb, type: http, server: a4.ap.fastqvpn.com, port: 29980, username: "178257641941499904", password: "46f40a8a-481e-4f97-a0fe-b3cb9ad5cb7b", tls: true }
-  - {name: 🇭🇰 HK_38.71Mb, type: http, server: a1.er3.xyz, port: 29980, username: "178257641941499904", password: "46f40a8a-481e-4f97-a0fe-b3cb9ad5cb7b", tls: true }
-  - {name: 🇭🇰 HK_35.16Mb, type: http, server: ap1-us.er3.xyz, port: 29988, username: "178257641941499904", password: "46f40a8a-481e-4f97-a0fe-b3cb9ad5cb7b", tls: true }
-  - {name: 🇭🇰 HK_26.18Mb, type: http, server: ap1-ca.er3.xyz, port: 29983, username: "178257641941499904", password: "46f40a8a-481e-4f97-a0fe-b3cb9ad5cb7b", tls: true }  
-  - {name: 🇭🇰 HK_25.87Mb, type: http, server: ap1-ge.er3.xyz, port: 29984, username: "178257641941499904", password: "46f40a8a-481e-4f97-a0fe-b3cb9ad5cb7b", tls: true }
+  - {name: 🇭🇰 HK_45.52Mb, type: http, server: a1.ap.fastqvpn.com, port: 29980, username: "419221980005266504", password: "46f40a8a-481e-4f97-a0fe-b3cb9ad5cb7b", tls: true }
+  - {name: 🇭🇰 HK_45.12Mb, type: http, server: a2.ap.fastqvpn.com, port: 29980, username: "419221980005266504", password: "46f40a8a-481e-4f97-a0fe-b3cb9ad5cb7b", tls: true }
+  - {name: 🇭🇰 HK_42.79Mb, type: http, server: a3.ap.fastqvpn.com, port: 29980, username: "419221980005266504", password: "46f40a8a-481e-4f97-a0fe-b3cb9ad5cb7b", tls: true }  
+  - {name: 🇭🇰 HK_39.75Mb, type: http, server: a4.ap.fastqvpn.com, port: 29980, username: "419221980005266504", password: "46f40a8a-481e-4f97-a0fe-b3cb9ad5cb7b", tls: true }
+  - {name: 🇭🇰 HK_38.71Mb, type: http, server: a1.er3.xyz, port: 29980, username: "419221980005266504", password: "46f40a8a-481e-4f97-a0fe-b3cb9ad5cb7b", tls: true }
+  - {name: 🇭🇰 HK_35.16Mb, type: http, server: ap1-us.er3.xyz, port: 29988, username: "419221980005266504", password: "46f40a8a-481e-4f97-a0fe-b3cb9ad5cb7b", tls: true }
+  - {name: 🇭🇰 HK_26.18Mb, type: http, server: ap1-ca.er3.xyz, port: 29983, username: "419221980005266504", password: "46f40a8a-481e-4f97-a0fe-b3cb9ad5cb7b", tls: true }  
+  - {name: 🇭🇰 HK_25.87Mb, type: http, server: ap1-ge.er3.xyz, port: 29984, username: "419221980005266504", password: "46f40a8a-481e-4f97-a0fe-b3cb9ad5cb7b", tls: true }
 proxy-groups:
   - name: 🔰 节点选择
     type: select
